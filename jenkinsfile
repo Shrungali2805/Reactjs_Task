@@ -1,13 +1,13 @@
 pipeline {
   environment {
-    dockerimagename = "shrungali2805/reactjs-app1"
+    dockerimagename = "shrungali2805/ReactApp"
     dockerImage = ""
   }
   agent any
   stages {
     stage('Checkout Source') {
       steps {
-        git ''https://github.com/Shrungali2805/docker-reactjs.git
+        git ''https://github.com/Shrungali2805/Reactjs_Task.git
       }
     }
     stage('Build image') {
