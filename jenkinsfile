@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage('Checkout Source') {
       steps {
-        git ''https://github.com/Shrungali2805/Reactjs_Task.git
+        git 'https://github.com/Shrungali2805/Reactjs_Task.git'
       }
     }
     stage('Build image') {
